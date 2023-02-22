@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Lobster;
+    color: bisque;
+}
+@font-face {
+    font-family: Lobster;
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+body{
+    background-color: black;
+}
+main{
+    padding-top: 1em;
+    border: 1px solid black;
+    margin: auto;
+    max-width: 1300px;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-family: Lobster;
+    font-size: 24pt;
+    background-image: url(Képregény/header_background.jpg);
+    color: bisque;
+    font-weight: bold;
+    text-shadow: 10px 10px black;
+    background-size: cover;
+    border: 1px solid white;
+}
+nav{
+    border: 1px solid black;
+    font-family: Lobster;
+    padding: 1em;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2em;
+    list-style: none;
+    background-color: green;
+    border: 1px solid white;
+}
+nav a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 18pt;
+    text-shadow: 5px 5px #024202;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    padding: 1em;
+}
+footer{
+    background-color: green;
+    height: 3em;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+h3{
+    align-self: center;
+    font-size: 16pt;
+}
+fieldset{
+    padding: 1em;
+    border: 1px solid white;
+    margin-bottom: 1em;
+    background-color: green;
+}
+legend{
+    font-size: 16pt;
+}
+label{
+    font-size: 14pt;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1em;
+}
+input{
+    margin-left: 1em;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button{
+    width: 150px;
+    align-items: center;
+    background-color: #024202;
+    border: 1px solid white;
+    font-size: 16pt;
+}
+button{
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    background-color: green;
+    border: 1px solid white;
+    font-size: 16pt;
+}
+.submit{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}

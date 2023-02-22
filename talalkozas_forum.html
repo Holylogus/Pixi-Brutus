@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hamar Patrik" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, PixiendBrutus, kutya, comic, kepregeny"
+    />
+    <link rel="stylesheet" href="forum.css" />
+    <title>Pixe&Brutus</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Pixe & Brutus</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="talalkozas.html">A Találkozás</a></li>
+          <li><a href="talalkozas_forum.html">Találkozás Fórum</a></li>
+          <li><a href="kikepzes.html">Kiképzés</a></li>
+          <li><a href="kikepzes_forum.html">Kiképzés fórum</a></li>
+        </ul>
+      </nav>
+      <article>
+        <fieldset>
+          <legend>Kit köszönthetek benned?</legend>
+          <div class="row">
+            <div class="input">
+              <label for="veznev">Vezetéknév:</label>
+              <input type="text" id="veznev" name="veznev" />
+            </div>
+            <div class="input">
+              <label for="kernev">Keresztnév</label>
+              <input type="text" id="kernev" name="kernev" />
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Mennyire tetszet a történet?</legend>
+          <div class="row">
+            <div class="radio1">
+              <input type="radio" id="1" name="ertekeles" />
+              <label for="1">1</label>
+            </div>
+            <div class="radio1">
+              <input type="radio" id="2" name="ertekeles" />
+              <label for="2">2</label>
+            </div>
+            <div class="radio1">
+              <input type="radio" id="3" name="ertekeles" />
+              <label for="3">3</label>
+            </div>
+            <div class="radio1">
+              <input type="radio" id="4" name="ertekeles" />
+              <label for="4">4</label>
+            </div>
+            <div class="radio1">
+              <input type="radio" id="5" name="ertekeles" />
+              <label for="5">5</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="row">
+            <div class="input_scale">
+              <label for="pixie">Mennyire cuki Pixie?</label>
+              <input type="range" id="pixie" name="pixie_ertekel" />
+            </div>
+            <div class="input_scale">
+              <label for="brutus">Mennyire cuki Brutus?</label>
+              <input type="range" id="brutus" name="brutus_ertekel" />
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Szerintem mi történik Randal farkával és miért?</legend>
+          <label for="velemeny">Írd le mit amit gondolsz</label>
+          <textarea
+            name="velemeny"
+            id="velemeny"
+            rows="10"
+            style="width: 100%"
+          ></textarea>
+        </fieldset>
+        <div class="submit"><button>Elküld!</button></div>
+      </article>
+      <footer>
+        <h3>Készítette Hamar Patrik</h3>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Lobster;
+    color: bisque;
+}
+@font-face {
+    font-family: Lobster;
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+body{
+    background-color: black;
+}
+main{
+    padding-top: 1em;
+    border: 1px solid black;
+    margin: auto;
+    max-width: 1300px;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-family: Lobster;
+    font-size: 24pt;
+    background-image: url(Képregény/header_background.jpg);
+    color: bisque;
+    font-weight: bold;
+    text-shadow: 10px 10px black;
+    background-size: cover;
+    border: 1px solid white;
+}
+nav{
+    border: 1px solid black;
+    font-family: Lobster;
+    padding: 1em;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    list-style: none;
+    background-color: green;
+    border: 1px solid white;
+}
+nav ul li{
+    padding: 1em;
+}
+nav a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 18pt;
+    text-shadow: 5px 5px #024202;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+footer{
+    background-color: green;
+    height: 3em;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+h3{
+    align-self: center;
+    font-size: 16pt;
+}
+.beggin{
+    width: 100%;
+    height: auto;
+}
+article .beggin img{
+    height: 80%;
+    width: 100%;
+    padding: 3px;
+    border: 1px solid white;
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+article .story img{
+    height: 300px;
+    padding: 3px;
+    border: 1px solid white;
+}
